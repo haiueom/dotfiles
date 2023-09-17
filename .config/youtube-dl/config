@@ -1,0 +1,15 @@
+# https://github.com/ytdl-org/youtube-dl#configuration
+
+# Windows config location
+#   - %APPDATA%\youtube-dl\config.txt
+#   - C:\Users\<username>\youtube-dl.conf
+
+# Linux and macOS config location
+#   - /etc/youtube-dl.conf
+#   - ~/.config/youtube-dl/config (user wide)
+
+# Windows: Output dir
+-o "%userprofile%/Downloads/youtube-dl/%%(title)s.%%(ext)s"
+
+# Termux: Output dir 
+-o ~/storage/downloads/Termux/%(title)s.%(ext)s
